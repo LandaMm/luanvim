@@ -41,6 +41,8 @@ return require('packer').startup(function(use)
 
 	use 'nvimdev/lspsaga.nvim'
 
+	use 'nvim-tree/nvim-tree.lua'
+
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v2.x',
